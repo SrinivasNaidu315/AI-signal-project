@@ -16,7 +16,7 @@ function Colleges() {
       try {
 
         const res = await axios.get(
-          "https://miniature-space-chainsaw-69w6qxx46v59crjrv-5000.app.github.dev/api/colleges"
+          "https://ai-signal-project.onrender.com/"
         )
 
         setColleges(res.data)
